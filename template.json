@@ -1,0 +1,24 @@
+{
+    "family": "jenkins-test",
+    "networkMode": "awsvpc",
+    "executionRoleArn": "arn:aws:iam::057996059708:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+        {
+            "name": "jenkins-test",
+            "image": "DOCKER_IMAGE_NAME",
+            "portMappings": [
+                {
+                    "containerPort": 8080,
+                    "hostPort": 8080,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+}
