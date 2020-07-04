@@ -10,7 +10,7 @@ Pre-requisites:
   - Create ECR Repo with the name of "hellospringboot"
   - Create IAM Role with below policies
       * AmazonEC2ContainerRegistryFullAccess
-      * 
+      * AmazonECSTaskExecutionRolePolicy
   
 Create Maven Job:
 -------
