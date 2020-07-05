@@ -1,7 +1,7 @@
 {
     "family": "jenkins-test",
     "networkMode": "awsvpc",
-    "executionRoleArn": "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy",
+    "executionRoleArn": "arn:aws:iam::057996059708:role/ecrFullAccess-ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "jenkins-test",
