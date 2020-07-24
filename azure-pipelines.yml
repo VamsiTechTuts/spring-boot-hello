@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: 'ec2_build_agent_setup.sh'
 
 steps:
 - task: Maven@3
