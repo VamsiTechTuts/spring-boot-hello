@@ -24,7 +24,30 @@
         <java.version>1.8</java.version>
     </properties>
 
-
+<distributionManagement>
+   <repository>
+  <id>simple-demo-feed</id>
+  <url>https://pkgs.dev.azure.com/venuprathap/Azure-Maven-Project/_packaging/simple-demo-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</distributionManagement>
+<repositories>
+    <repository>
+  <id>simple-demo-feed</id>
+  <url>https://pkgs.dev.azure.com/venuprathap/Azure-Maven-Project/_packaging/simple-demo-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</repositories> 
     <build>
         <plugins>
             <plugin>
