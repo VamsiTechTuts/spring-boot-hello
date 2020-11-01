@@ -1,4 +1,4 @@
-# spring-boot-hello changed for pipeline job webhook
+# spring-boot-hello 
 
 Pre-requisites:
 -----
