@@ -1,4 +1,4 @@
-# spring-boot-hello changed ssl
+# spring-boot-hello changed ssl all good now
 
 Pre-requisites:
 -----
